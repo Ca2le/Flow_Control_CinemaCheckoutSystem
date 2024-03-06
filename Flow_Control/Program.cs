@@ -80,10 +80,10 @@ namespace Flow_Control
                         break;
 
                         case "4":
-                            Console.WriteLine("Observera att vår gästbok idag genomgår \n " +
-                                "ombyggnad, den skriver endast ut var tredje bokstav i ,\n " +
-                                "ditt inlägg, vi ber så klart om ursäkt för denna bug!");
-                            Console.WriteLine("Skriv ditt meddelande här: ");
+                            Console.WriteLine("OBS! Vår gästbok genomgår idag en ombyggnad,\n " +
+                                                "den skriver endast ut var tredje ord i ditt \n " +
+                                                "inlägg, vi ber så klart om ursäkt för denna bug!");
+                            Console.WriteLine(  "Skriv ditt meddelande här: ");
                             string message = Console.ReadLine();
                             if (message.Length < 1)
                             {
