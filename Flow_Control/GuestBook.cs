@@ -25,6 +25,7 @@ namespace Flow_Control
             Console.WriteLine("      Tack för ditt besök och inlägg.        ");
             Console.WriteLine("                                            ");
             Console.WriteLine("=================Gästbok====================");
+            Console.WriteLine("\n\n");
         }
 
     }
